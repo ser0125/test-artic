@@ -16,7 +16,7 @@ export function BackgroundVideo() {
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
       </div>
       <div className="absolute bottom-10 left-10">
-        <h1 className=" text-white text-7xl font-semibold z-20">
+        <h1 className=" text-white text-7xl font-semibold z-20 mb-10">
           Great things never came
           <br />
           from comfort zones.

@@ -3,6 +3,12 @@ import {Await, useLoaderData, Link, type MetaFunction} from '@remix-run/react';
 import {Suspense} from 'react';
 import {Image, Money} from '@shopify/hydrogen';
 import {BackgroundVideo} from '../components/videoBanner';
+import {ScrollingText} from '../components/pasarela';
+import {PartnerShowcase} from '../components/TrustedPartners';
+import {CardContainer} from '../components/goalsCard';
+import {CardContainerSupplements} from '../components/supplements';
+import {HealthFitness} from '../components/health&Fitnesssection';
+import {RealTestimonialsContainer} from '../components/realTestimonials';
 import type {
   FeaturedCollectionFragment,
   RecommendedProductsQuery,
@@ -61,6 +67,12 @@ export default function Homepage() {
   return (
     <>
       <BackgroundVideo />
+      <ScrollingText />
+      <PartnerShowcase />
+      <CardContainer />
+      <CardContainerSupplements />
+      <HealthFitness />
+      <RealTestimonialsContainer />
     </>
   );
 }
