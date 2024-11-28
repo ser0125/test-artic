@@ -5,13 +5,13 @@
   "version": "2024.10.1",
   "type": "module",
   "scripts": {
-    "build": "shopify hydrogen build --codegen",
+    "build": "shopify hydrogen build --output ./build --codegen",
     "dev": "shopify hydrogen dev --codegen",
     "preview": "shopify hydrogen preview --build",
     "lint": "eslint --no-error-on-unmatched-pattern --ext .js,.ts,.jsx,.tsx .",
     "typecheck": "tsc --noEmit",
     "codegen": "shopify hydrogen codegen",
-    "start": "node server.js"
+    "start": "ts-node server.ts"
   },
   "prettier": "@shopify/prettier-config",
   "dependencies": {
@@ -47,6 +47,7 @@
     "eslint": "^8.20.0",
     "eslint-plugin-hydrogen": "0.12.2",
     "prettier": "^2.8.4",
+    "ts-node": "^10.9.2",
     "typescript": "^5.2.2",
     "vite": "^5.1.0",
     "vite-tsconfig-paths": "^4.3.1"
