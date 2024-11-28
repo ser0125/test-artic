@@ -9,6 +9,8 @@ import {CardContainer} from '../components/goalsCard';
 import {CardContainerSupplements} from '../components/supplements';
 import {HealthFitness} from '../components/health&Fitnesssection';
 import {RealTestimonialsContainer} from '../components/realTestimonials';
+import {CardContainerBundles} from '../components/Bundles';
+
 import type {
   FeaturedCollectionFragment,
   RecommendedProductsQuery,
@@ -73,6 +75,7 @@ export default function Homepage() {
       <CardContainerSupplements />
       <HealthFitness />
       <RealTestimonialsContainer />
+      <CardContainerBundles />
     </>
   );
 }
