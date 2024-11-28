@@ -22,10 +22,11 @@ export default defineConfig({
   ],
   build: {
     // Allow a strict Content-Security-Policy
-    // withtout inlining assets as base64:
+    // without inlining assets as base64:
     assetsInlineLimit: 0,
   },
   ssr: {
+    noExternal: ['express', 'path'], // Agrega express y path aquí
     optimizeDeps: {
       /**
        * Include dependencies here if they throw CJS<>ESM errors.
