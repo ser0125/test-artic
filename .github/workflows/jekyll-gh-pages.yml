@@ -1,33 +1,39 @@
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Deploy Hydrogen to GitHub Pages
+
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: "pages"
   cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+      - name: Install Node.js
+        uses: actions/setup-node@v3
         with:
-          source: ./
-          destination: ./_site
+          node-version: '18'
+      - name: Install Dependencies
+        run: npm install
+      - name: Build Project
+        run: npm run build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
-          name: jekyll-artifact
-          path: ./_site
+          name: hydrogen-artifact
+          path: ./dist  # Asegúrate de que el directorio de salida sea correcto
+
   deploy:
     environment:
       name: github-pages
@@ -36,11 +42,15 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-pages-artifact@v1
+        uses: actions/download-artifact@v3
         with:
-          name: jekyll-artifact
+          name: hydrogen-artifact
+      - name: Move Files
+        run: |
+          mkdir -p ${{ github.workspace }}/out
+          mv ./dist/* ${{ github.workspace }}/out
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          folder: 'jekyll-artifact'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ github.workspace }}/out
