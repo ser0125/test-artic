@@ -4,7 +4,7 @@ import {
   getPaginationVariables,
   flattenConnection,
 } from '@shopify/hydrogen';
-import {json, type LoaderFunctionArgs} from '@shopify/remix-oxygen';
+import {json, type LoaderFunctionArgs} from '@netlify/remix-runtime';
 import {CUSTOMER_ORDERS_QUERY} from '~/graphql/customer-account/CustomerOrdersQuery';
 import type {
   CustomerOrdersFragment,

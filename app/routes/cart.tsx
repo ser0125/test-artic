@@ -2,7 +2,7 @@ import {Await, type MetaFunction, useRouteLoaderData} from '@remix-run/react';
 import {Suspense} from 'react';
 import type {CartQueryDataReturn} from '@shopify/hydrogen';
 import {CartForm} from '@shopify/hydrogen';
-import {json, type ActionFunctionArgs} from '@shopify/remix-oxygen';
+import {json, type ActionFunctionArgs} from '@netlify/remix-runtime';
 import {CartMain} from '~/components/CartMain';
 import type {RootLoader} from '~/root';
 

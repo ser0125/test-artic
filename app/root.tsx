@@ -1,5 +1,5 @@
 import {useNonce, getShopAnalytics, Analytics} from '@shopify/hydrogen';
-import {defer, type LoaderFunctionArgs} from '@shopify/remix-oxygen';
+import {defer, type LoaderFunctionArgs} from '@netlify/remix-runtime';
 import {
   Links,
   Meta,

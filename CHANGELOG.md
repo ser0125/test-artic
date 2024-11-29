@@ -151,7 +151,7 @@
 
 - Updated dependencies [[`d97cd56e`](https://github.com/Shopify/hydrogen/commit/d97cd56e859abf8dd005fef2589d99e07fa87b6e), [`809c9f3d`](https://github.com/Shopify/hydrogen/commit/809c9f3d342b56dd3c0d340cb733e6f00053b71d), [`8c89f298`](https://github.com/Shopify/hydrogen/commit/8c89f298a8d9084ee510fb4d0d17766ec43c249c), [`a253ef97`](https://github.com/Shopify/hydrogen/commit/a253ef971acb08f2ee3a2743ca5c901c2922acc0), [`84a66b1e`](https://github.com/Shopify/hydrogen/commit/84a66b1e9d07bd6d6a10e5379ad3350b6bbecde9), [`227035e7`](https://github.com/Shopify/hydrogen/commit/227035e7e11df5fec5ac475b98fa6a318bdbe366), [`ac12293c`](https://github.com/Shopify/hydrogen/commit/ac12293c7b36e1b278bc929c682c65779c300cc7), [`c7c9f2eb`](https://github.com/Shopify/hydrogen/commit/c7c9f2ebd869a9d361504a10566c268e88b6096a), [`76cd4f9b`](https://github.com/Shopify/hydrogen/commit/76cd4f9ba3dd8eff4433d72f4422c06a7d567537), [`8337e534`](https://github.com/Shopify/hydrogen/commit/8337e5342ecca563fab557c3e833485466456cd5)]:
   - @shopify/hydrogen@2024.10.0
-  - @shopify/remix-oxygen@2.0.9
+  - @netlify/remix-runtime@2.0.9
 
 ## 2024.7.10
 
@@ -170,7 +170,7 @@
 
 - Updated dependencies [[`f3363030`](https://github.com/Shopify/hydrogen/commit/f3363030a50bd24d946427e01b88ba77253a6cc9), [`bb5b0979`](https://github.com/Shopify/hydrogen/commit/bb5b0979ddffb007111885b3a9b7aa490a3c6882)]:
   - @shopify/hydrogen@2024.7.8
-  - @shopify/remix-oxygen@2.0.8
+  - @netlify/remix-runtime@2.0.8
 
 ## 2024.7.8
 
@@ -268,7 +268,7 @@
 
 - Updated dependencies [[`d633e49a`](https://github.com/Shopify/hydrogen/commit/d633e49aff244a985c58ec77fc2796c9c1cd5df4), [`1b217cd6`](https://github.com/Shopify/hydrogen/commit/1b217cd68ffd5362d201d4bd225ec72e99713461), [`d929b561`](https://github.com/Shopify/hydrogen/commit/d929b5612ec28e53ec216844add33682f131aba7), [`664a09d5`](https://github.com/Shopify/hydrogen/commit/664a09d57ef5d3c67da947a4e8546527c01e37c4), [`0c1e511d`](https://github.com/Shopify/hydrogen/commit/0c1e511df72e9605534bb9c960e86d5c9a4bf2ea), [`eefa8203`](https://github.com/Shopify/hydrogen/commit/eefa820383fa93657ca214991f6099ce9268a4ee)]:
   - @shopify/hydrogen@2024.7.5
-  - @shopify/remix-oxygen@2.0.7
+  - @netlify/remix-runtime@2.0.7
 
 ## 2024.7.5
 
@@ -433,7 +433,7 @@
 - Updated dependencies [[`a2d9acf9`](https://github.com/Shopify/hydrogen/commit/a2d9acf95e019c39df0b10f4841a1d809b810c80), [`c0d7d917`](https://github.com/Shopify/hydrogen/commit/c0d7d9176c80b996064d8e897876f954807c7640), [`b09e9a4c`](https://github.com/Shopify/hydrogen/commit/b09e9a4ca7b931e48462c2d174ca9f67c37f1da2), [`c204eacf`](https://github.com/Shopify/hydrogen/commit/c204eacf0273f625109523ee81053cdc0c4de7e1), [`bf4e3d3c`](https://github.com/Shopify/hydrogen/commit/bf4e3d3c00744a066b50250a12e4f3c675691811), [`20a8e63b`](https://github.com/Shopify/hydrogen/commit/20a8e63b5fd1c8acadda7612c5d4cc411e0c5932), [`6e5d8ea7`](https://github.com/Shopify/hydrogen/commit/6e5d8ea71a2639925d5817b662af26a6b2ba3c6d), [`7c4f67a6`](https://github.com/Shopify/hydrogen/commit/7c4f67a684ad31edea10d1407d00201bbaaa9822), [`dfb9be77`](https://github.com/Shopify/hydrogen/commit/dfb9be7721c7d10cf4354fda60db4e666625518e), [`31ea19e8`](https://github.com/Shopify/hydrogen/commit/31ea19e8957dbc4487314b014a14920444d37f78)]:
   - @shopify/cli-hydrogen@8.4.0
   - @shopify/hydrogen@2024.7.3
-  - @shopify/remix-oxygen@2.0.6
+  - @netlify/remix-runtime@2.0.6
 
 ## 2024.7.3
 
@@ -613,7 +613,7 @@
   ```
 
 - Updated dependencies [[`a0e84d76`](https://github.com/Shopify/hydrogen/commit/a0e84d76b67d4c57c4defee06185949c41782eab), [`426bb390`](https://github.com/Shopify/hydrogen/commit/426bb390b25f51e57499ff6673aef70ded935e87), [`4337200c`](https://github.com/Shopify/hydrogen/commit/4337200c7908d56c039171c283a4d92c31a8b7b6), [`710625c7`](https://github.com/Shopify/hydrogen/commit/710625c740a6656488d4b419e2d2451bef9d076f), [`8b9c726d`](https://github.com/Shopify/hydrogen/commit/8b9c726d34f3482b5b5a0da4c7c0c2f20e2c9caa), [`10a419bf`](https://github.com/Shopify/hydrogen/commit/10a419bf1db79cdfd8c41c0223ce695959f60da9), [`6a6278bb`](https://github.com/Shopify/hydrogen/commit/6a6278bb9187b3b5a98cd98ec9dd278882d03c0d), [`66236ca6`](https://github.com/Shopify/hydrogen/commit/66236ca65ddefac99eaa553c7877c85863d84cc2), [`dcbd0bbf`](https://github.com/Shopify/hydrogen/commit/dcbd0bbf4073a3e35e96f3cce257f7b19b2b2aea), [`a5e03e2a`](https://github.com/Shopify/hydrogen/commit/a5e03e2a1e99fcd83ee5a2be7bf6f5f6b47984b3), [`c2690653`](https://github.com/Shopify/hydrogen/commit/c2690653b6b24f7318e9088551a37195255a2247), [`54c2f7ad`](https://github.com/Shopify/hydrogen/commit/54c2f7ad3d0d52e6be10b2a54a1a4fd0cc107a35), [`4337200c`](https://github.com/Shopify/hydrogen/commit/4337200c7908d56c039171c283a4d92c31a8b7b6), [`e96b332b`](https://github.com/Shopify/hydrogen/commit/e96b332ba1aba79aa3d5c2ce18001292070faf49), [`f3065371`](https://github.com/Shopify/hydrogen/commit/f3065371c1dda222c6e40bd8c20528dc9fdea9a5), [`6cd5554b`](https://github.com/Shopify/hydrogen/commit/6cd5554b160d314d35964a5ee8976ed60972bf17), [`9eb60d73`](https://github.com/Shopify/hydrogen/commit/9eb60d73e552c3d22b9325ecbcd5878810893ad3), [`e432533e`](https://github.com/Shopify/hydrogen/commit/e432533e7391ec3fe16a4a24f2b3363206842580), [`de3f70be`](https://github.com/Shopify/hydrogen/commit/de3f70be1a838eda746903cbb38cc25cf0e09fa3), [`83cb96f4`](https://github.com/Shopify/hydrogen/commit/83cb96f42078bf79b20a153d8a8461f75d573ab1)]:
-  - @shopify/remix-oxygen@2.0.5
+  - @netlify/remix-runtime@2.0.5
   - @shopify/cli-hydrogen@8.2.0
   - @shopify/hydrogen@2024.7.1
 
@@ -690,7 +690,7 @@
   ```tsx
   // app/lib/root-data.ts
   import {useMatches} from '@remix-run/react';
-  import type {SerializeFrom} from '@shopify/remix-oxygen';
+  import type {SerializeFrom} from '@netlify/remix-runtime';
   import type {loader} from '~/root';
 
   /**
@@ -769,7 +769,7 @@
 
   // ...
 
-  declare module '@shopify/remix-oxygen' {
+  declare module '@netlify/remix-runtime' {
     // ...
 
   + interface SessionData extends HydrogenSessionData {}
@@ -795,7 +795,7 @@
 - Updated dependencies [[`4eaec272`](https://github.com/Shopify/hydrogen/commit/4eaec272696f1a718aa7cab1070a54385ebc3686), [`14bb5df1`](https://github.com/Shopify/hydrogen/commit/14bb5df1c1513a7991183d34e72220cb2b139cf5), [`646b78d4`](https://github.com/Shopify/hydrogen/commit/646b78d4bc26310121b16000ed4d1c5d5e63957d), [`87072950`](https://github.com/Shopify/hydrogen/commit/870729505f7eb1f1c709799dd036ad02fd94be95), [`5f1295fe`](https://github.com/Shopify/hydrogen/commit/5f1295fe60b86396f364fefef339248a444c988a), [`3c8a7313`](https://github.com/Shopify/hydrogen/commit/3c8a7313cafb0ca21bbca19ac0b3f8ef4ab12655), [`ca1dcbb7`](https://github.com/Shopify/hydrogen/commit/ca1dcbb7d69c458006e25892c86c4478d394a428), [`11879b17`](https://github.com/Shopify/hydrogen/commit/11879b175d78e3326de090a56a044d1e55d0bae8), [`f4d6e5b0`](https://github.com/Shopify/hydrogen/commit/f4d6e5b0244392a7c13b9fa51c5046fd103c3e4f), [`788d86b3`](https://github.com/Shopify/hydrogen/commit/788d86b3a737bff53b4ec3aa9667458b2d45ade7), [`ebaf5529`](https://github.com/Shopify/hydrogen/commit/ebaf5529287b24a70b3146444b18f95b64f9f336), [`da95bb1c`](https://github.com/Shopify/hydrogen/commit/da95bb1c8c644f450053ce649b40dc380e7375dc), [`5bb43304`](https://github.com/Shopify/hydrogen/commit/5bb43304c08427786cfd4f2529e59bd38f593252), [`140e4768`](https://github.com/Shopify/hydrogen/commit/140e4768c880aaed4ba95b1d4c707df6963e011c), [`062d6be7`](https://github.com/Shopify/hydrogen/commit/062d6be7e031c388498ec3d359de51a4bfdfdfd8), [`b3323e59`](https://github.com/Shopify/hydrogen/commit/b3323e59a4381647f1df797c5dc54793f6e0a29a), [`ab0df5a5`](https://github.com/Shopify/hydrogen/commit/ab0df5a52bc587515880ae26f4edd18ba2be83cd), [`ebaf5529`](https://github.com/Shopify/hydrogen/commit/ebaf5529287b24a70b3146444b18f95b64f9f336), [`ebaf5529`](https://github.com/Shopify/hydrogen/commit/ebaf5529287b24a70b3146444b18f95b64f9f336), [`9e899218`](https://github.com/Shopify/hydrogen/commit/9e8992181ce7d27548d35f98b5a4f78b80795ce8), [`a209019f`](https://github.com/Shopify/hydrogen/commit/a209019f722ece4b65f8d5f37c8018c949956b1e), [`d007b7bc`](https://github.com/Shopify/hydrogen/commit/d007b7bc6f6c36e984d937108230ecc7c202fa42), [`a5511cd7`](https://github.com/Shopify/hydrogen/commit/a5511cd7bf9b0f0c4ef0e52cd72418f78c04785b), [`4afedb4d`](https://github.com/Shopify/hydrogen/commit/4afedb4d7202715df9a153e877e8eb281cc3e928), [`34fbae23`](https://github.com/Shopify/hydrogen/commit/34fbae23999eefbd1af1dff44816a52813d75b44), [`e3baaba5`](https://github.com/Shopify/hydrogen/commit/e3baaba54c701a48923ab3fe8078278f2db2c53f), [`99d72f7a`](https://github.com/Shopify/hydrogen/commit/99d72f7afc354abb66ed0e4ffb020bede2781286), [`9351f9f5`](https://github.com/Shopify/hydrogen/commit/9351f9f564267124bcbf986f5550a542c4bf1e30)]:
   - @shopify/cli-hydrogen@8.0.0
   - @shopify/hydrogen@2024.4.0
-  - @shopify/remix-oxygen@2.0.4
+  - @netlify/remix-runtime@2.0.4
 
 ## 1.0.6
 
@@ -945,7 +945,7 @@
 - Updated dependencies [[`810f48cf`](https://github.com/Shopify/hydrogen/commit/810f48cf5d55f0cfcac6e01fe481db8c76e77cd2), [`8c477cb5`](https://github.com/Shopify/hydrogen/commit/8c477cb565c3e018bf4e13bad01804c21611fb8a), [`42ac4138`](https://github.com/Shopify/hydrogen/commit/42ac4138553c7e1a438b075c4f9cb781edffebc4), [`0241b7d2`](https://github.com/Shopify/hydrogen/commit/0241b7d2dcb887d259ce9033aca356d391bc07df), [`6a897586`](https://github.com/Shopify/hydrogen/commit/6a897586bd0908db90736921d11e4b6bdf29c912), [`0ff63bed`](https://github.com/Shopify/hydrogen/commit/0ff63bed840f5b8a5eb9968b67bd9a5a57099253), [`6bc1d61c`](https://github.com/Shopify/hydrogen/commit/6bc1d61c17a9c9be13f52338d2ab940e64e73495), [`eb0f4bcc`](https://github.com/Shopify/hydrogen/commit/eb0f4bccb57966a00ecb2b88d17dd694599da340), [`400bfee6`](https://github.com/Shopify/hydrogen/commit/400bfee6836a51c6ab5e4804e8b1e9ad48856dcb), [`a69c21ca`](https://github.com/Shopify/hydrogen/commit/a69c21caa15dfedb88afd50f262f17bf86f74836), [`970073e7`](https://github.com/Shopify/hydrogen/commit/970073e78258880505e0de563136b5379d5d24af), [`772118ca`](https://github.com/Shopify/hydrogen/commit/772118ca6aefbd47841fffc6ce42856c2dc779bd), [`335375a6`](https://github.com/Shopify/hydrogen/commit/335375a6b1a512f70e169a82bc87a8392dc8c92c), [`335371ce`](https://github.com/Shopify/hydrogen/commit/335371ceb6e1bd5aebb6104f131d3f22798a245f), [`94509b75`](https://github.com/Shopify/hydrogen/commit/94509b750afefd686971198ed86277e2c70f3176), [`36d6fa2c`](https://github.com/Shopify/hydrogen/commit/36d6fa2c4fa54ff79f06ef17aa41f60478977bc0), [`3e7b6e8a`](https://github.com/Shopify/hydrogen/commit/3e7b6e8a3bf66bad7fc0f9c224f1c163dbe3e288), [`cce65795`](https://github.com/Shopify/hydrogen/commit/cce6579580f849bec9a28cf575f7130ba3627f6b), [`9e3d88d4`](https://github.com/Shopify/hydrogen/commit/9e3d88d498efaa20fe23de9837e0f444180bc787), [`ca1161b2`](https://github.com/Shopify/hydrogen/commit/ca1161b29ad7b4d0838953782fb114d5fe82193a), [`92840e51`](https://github.com/Shopify/hydrogen/commit/92840e51820e5c7822f731affd3f591c0099be10), [`952fedf2`](https://github.com/Shopify/hydrogen/commit/952fedf27b869164550954d1c15f53b32ec02675), [`1bc053c9`](https://github.com/Shopify/hydrogen/commit/1bc053c94ba1be14ddc28be9eb70be7219b295d1)]:
   - @shopify/hydrogen@2024.1.0
   - @shopify/cli-hydrogen@7.0.0
-  - @shopify/remix-oxygen@2.0.3
+  - @netlify/remix-runtime@2.0.3
 
 ## 1.0.1
 
@@ -972,7 +972,7 @@
 
 - Update to the latest version of `@shopify/oxygen-workers-types`. ([#1494](https://github.com/Shopify/hydrogen/pull/1494)) by [@frandiox](https://github.com/frandiox)
 
-  In TypeScript projects, when updating to the latest `@shopify/remix-oxygen` adapter release, you should also update to the latest version of `@shopify/oxygen-workers-types`:
+  In TypeScript projects, when updating to the latest `@netlify/remix-runtime` adapter release, you should also update to the latest version of `@shopify/oxygen-workers-types`:
 
   ```diff
   "devDependencies": {
@@ -1002,7 +1002,7 @@
 
 - Add `@remix-run/server-runtime` dependency. ([#1489](https://github.com/Shopify/hydrogen/pull/1489)) by [@frandiox](https://github.com/frandiox)
 
-  Since Remix is now a peer dependency of `@shopify/remix-oxygen`, you need to add `@remix-run/server-runtime` to your dependencies, with the same version as the rest of your Remix dependencies.
+  Since Remix is now a peer dependency of `@netlify/remix-runtime`, you need to add `@remix-run/server-runtime` to your dependencies, with the same version as the rest of your Remix dependencies.
 
   ```diff
   "dependencies": {
@@ -1014,7 +1014,7 @@
 
 - Updated dependencies [[`b2a350a7`](https://github.com/Shopify/hydrogen/commit/b2a350a754ea2d29bc267c260dc298a02f8f4470), [`9b4f4534`](https://github.com/Shopify/hydrogen/commit/9b4f453407338874bd8f1a1f619b607670e021d0), [`74ea1dba`](https://github.com/Shopify/hydrogen/commit/74ea1dba9af37a146882df7ed9674be5659862b5), [`2be9ce82`](https://github.com/Shopify/hydrogen/commit/2be9ce82fd4a5121f1772bbb7349e96ed530e84e), [`a9b8bcde`](https://github.com/Shopify/hydrogen/commit/a9b8bcde96c22cedef7d87631d429199810b4a7a), [`bca112ed`](https://github.com/Shopify/hydrogen/commit/bca112ed7db49e533fe49898b663fa0dd318e6ba), [`848c6260`](https://github.com/Shopify/hydrogen/commit/848c6260a2db3a9cb0c86351f0f7128f61e028f0), [`d53b4ed7`](https://github.com/Shopify/hydrogen/commit/d53b4ed752eb0530622a666ea7dcf4b40239cafa), [`961fd8c6`](https://github.com/Shopify/hydrogen/commit/961fd8c630727784f77b9f693d2e8ff8601969fc), [`2bff9fc7`](https://github.com/Shopify/hydrogen/commit/2bff9fc75916fa95f9a9279d069408fb7a33755c), [`c8e8f6fd`](https://github.com/Shopify/hydrogen/commit/c8e8f6fd233e52cf5570b1904af710d6b907aae5), [`8fce70de`](https://github.com/Shopify/hydrogen/commit/8fce70de32bd61ee86a6d895ac43cc1f78f1bf49), [`f90e4d47`](https://github.com/Shopify/hydrogen/commit/f90e4d4713c6c1fc1e921a7ecd08e95fe5da1744), [`e8cc49fe`](https://github.com/Shopify/hydrogen/commit/e8cc49feff18f5ee72d5f6965ff2094addc23466)]:
   - @shopify/cli-hydrogen@6.1.0
-  - @shopify/remix-oxygen@2.0.2
+  - @netlify/remix-runtime@2.0.2
   - @shopify/hydrogen@2023.10.3
 
 ## 1.0.0
@@ -1140,7 +1140,7 @@
   // root.tsx
 
   import {useMatches} from '@remix-run/react';
-  import {type SerializeFrom} from '@shopify/remix-oxygen';
+  import {type SerializeFrom} from '@netlify/remix-runtime';
 
   export const useRootLoaderData = () => {
     const [root] = useMatches();
@@ -1156,5 +1156,5 @@
 
 - Updated dependencies [[`81400439`](https://github.com/Shopify/hydrogen/commit/814004397c1d17ef0a53a425ed28a42cf67765cf), [`a6f397b6`](https://github.com/Shopify/hydrogen/commit/a6f397b64dc6a0d856cb7961731ee1f86bf80292), [`3464ec04`](https://github.com/Shopify/hydrogen/commit/3464ec04a084e1ceb30ee19874dc1b9171ce2b34), [`7fc088e2`](https://github.com/Shopify/hydrogen/commit/7fc088e21bea47840788cb7c60f873ce1f253128), [`867e0b03`](https://github.com/Shopify/hydrogen/commit/867e0b033fc9eb04b7250baea97d8fd49d26ccca), [`ad45656c`](https://github.com/Shopify/hydrogen/commit/ad45656c5f663cc1a60eab5daab4da1dfd0e6cc3), [`f24e3424`](https://github.com/Shopify/hydrogen/commit/f24e3424c8e2b363b181b71fcbd3e45f696fdd3f), [`66a48573`](https://github.com/Shopify/hydrogen/commit/66a4857387148b6a104df5783314c74aca8aada0), [`0ae7cbe2`](https://github.com/Shopify/hydrogen/commit/0ae7cbe280d8351126e11dc13f35d7277d9b2d86), [`8198c1be`](https://github.com/Shopify/hydrogen/commit/8198c1befdfafb39fbcc88d71f91d21eae252973), [`ad45656c`](https://github.com/Shopify/hydrogen/commit/ad45656c5f663cc1a60eab5daab4da1dfd0e6cc3)]:
   - @shopify/hydrogen@2023.10.0
-  - @shopify/remix-oxygen@2.0.0
+  - @netlify/remix-runtime@2.0.0
   - @shopify/cli-hydrogen@6.0.0

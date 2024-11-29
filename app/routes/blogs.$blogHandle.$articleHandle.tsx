@@ -1,4 +1,4 @@
-import {defer, type LoaderFunctionArgs} from '@shopify/remix-oxygen';
+import {defer, type LoaderFunctionArgs} from '@netlify/remix-runtime';
 import {useLoaderData, type MetaFunction} from '@remix-run/react';
 import {Image} from '@shopify/hydrogen';
 

@@ -1,4 +1,4 @@
-import {defer, type LoaderFunctionArgs} from '@shopify/remix-oxygen';
+import {defer, type LoaderFunctionArgs} from '@netlify/remix-runtime';
 import {Link, useLoaderData, type MetaFunction} from '@remix-run/react';
 import {getPaginationVariables} from '@shopify/hydrogen';
 import {PaginatedResourceSection} from '~/components/PaginatedResourceSection';

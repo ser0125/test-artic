@@ -1,4 +1,4 @@
-import type {LoaderFunctionArgs} from '@shopify/remix-oxygen';
+import type {LoaderFunctionArgs} from '@netlify/remix-runtime';
 import {getSitemapIndex} from '@shopify/hydrogen';
 
 export async function loader({

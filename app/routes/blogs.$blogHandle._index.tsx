@@ -1,4 +1,4 @@
-import {defer, type LoaderFunctionArgs} from '@shopify/remix-oxygen';
+import {defer, type LoaderFunctionArgs} from '@netlify/remix-runtime';
 import {Link, useLoaderData, type MetaFunction} from '@remix-run/react';
 import {Image, getPaginationVariables} from '@shopify/hydrogen';
 import type {ArticleItemFragment} from 'storefrontapi.generated';

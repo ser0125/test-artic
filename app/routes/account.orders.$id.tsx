@@ -1,4 +1,4 @@
-import {json, redirect, type LoaderFunctionArgs} from '@shopify/remix-oxygen';
+import {json, redirect, type LoaderFunctionArgs} from '@netlify/remix-runtime';
 import {useLoaderData, type MetaFunction} from '@remix-run/react';
 import {Money, Image, flattenConnection} from '@shopify/hydrogen';
 import type {OrderLineItemFullFragment} from 'customer-accountapi.generated';

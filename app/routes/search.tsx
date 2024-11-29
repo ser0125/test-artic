@@ -2,7 +2,7 @@ import {
   json,
   type LoaderFunctionArgs,
   type ActionFunctionArgs,
-} from '@shopify/remix-oxygen';
+} from '@netlify/remix-runtime';
 import {useLoaderData, type MetaFunction} from '@remix-run/react';
 import {getPaginationVariables, Analytics} from '@shopify/hydrogen';
 import {SearchForm} from '~/components/SearchForm';

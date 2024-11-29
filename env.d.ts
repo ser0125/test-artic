@@ -1,6 +1,5 @@
 /// <reference types="vite/client" />
-/// <reference types="@shopify/remix-oxygen" />
-/// <reference types="@shopify/oxygen-workers-types" />
+/// <reference types="@netlify/remix-runtime" />
 
 // Enhance TypeScript's built-in typings.
 import '@total-typescript/ts-reset';
@@ -23,7 +22,7 @@ declare global {
   }
 }
 
-declare module '@shopify/remix-oxygen' {
+declare module '@netlify/remix-runtime' {
   interface AppLoadContext
     extends Awaited<ReturnType<typeof createAppLoadContext>> {
     // to change context type, change the return of createAppLoadContext() instead
