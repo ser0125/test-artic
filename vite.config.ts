@@ -20,7 +20,7 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
-  build: {assetsInlineLimit: 0},
+  build: {outDir: './build', assetsInlineLimit: 0},
   ssr: {
     optimizeDeps: {
       /** * Include dependencies here if they throw CJS<>ESM errors. * For example, for the following error: * * > ReferenceError: module is not defined * > at /Users/.../node_modules/example-dep/index.js:1:1 * * Include 'example-dep' in the array below. * @see https://vitejs.dev/config/dep-optimization-options */ include:
